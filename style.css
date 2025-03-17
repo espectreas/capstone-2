@@ -1,0 +1,273 @@
+.herohero
+{
+    background-color: #f4eede;
+}
+
+.hellohello
+{
+    background-color: #f4eede;
+}
+
+.museum
+{
+    background-color: #44000d;
+}
+
+.msites
+{
+    background-color: #44000d;
+}
+
+.footerrr
+{
+    background-color: #ad1d45;
+}
+
+.museumt
+{
+    font-size: 128px;
+    color: #f9d276;
+    font-family: Koulen, sans-serif;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.museu
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mural
+{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+.mural > div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+@media (min-width: 768px)
+{
+    .mural > div
+    {
+        flex-direction: row;
+    }
+
+    .mural > div > div > .c150
+    {
+        width: 150px;
+    }
+
+    .mural > div > div > .c200
+    {
+        width: 200px;
+    }
+
+    .mural > .um
+    {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 992px)
+{
+    #signature
+    {
+        margin-left: auto !important;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .mural > div > div > .c150
+    {
+        width: 175px;
+    }
+
+    .mural > div > div > .c200
+    {
+        width: 233px;
+    }
+
+    #signature
+    {
+        order: 3;
+        margin-top: 0 !important;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .mural > div > div > .c150
+    {
+        width: 225px;
+    }
+
+    .mural > div > div > .c200
+    {
+        width: 300px;
+    }
+}
+
+#hello
+{
+    font-size: 100px;
+    color: #ad1d45 !important;
+    font-family: Koulen, sans-serif;
+    font-weight: 100 !important; 
+
+}
+
+#signature
+{
+    order: 3;
+    display: flex;
+}
+
+@media (min-width: 1400px)
+{
+    .mural > div > div > .c150
+    {
+        width: 270px;
+    }
+
+    .mural > div > div > .c200
+    {
+        width: 360px;
+    }
+}
+
+.mural > div > div > p
+{
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.mural > div > div > p > span
+{
+    color:#f9d276;
+    font-weight: 400;
+}
+
+.impossivel
+{
+    margin-top: 1px;
+}
+
+#mondriant
+{
+    font-size: 50px;
+    color: #f9d276;
+    font-family: Koulen, sans-serif;
+    font-weight: 100 !important; 
+}
+
+#butao
+{
+    background-color: transparent;
+    border-color: #f9d276; 
+    color: #f9d276;
+    font-weight: 400;
+    transition: 0.4s;
+}
+
+#butao:hover
+{
+    background-color: #f9d276;
+    color:#44000d;
+}
+
+.desc
+{
+    font-family: 'Kumbh Sans', Sans !important;
+    font-weight: 400 !important;
+}
+
+.futer
+{
+    color: white !important;
+}
+
+.quadro > .desc
+{
+    margin-top: 5px !important;
+}
+
+#titolo
+{
+    font-family: Koulen, sans-serif;
+    font-weight: 100 !important;
+    font-size: 120px;
+    margin-bottom: 0;
+    height: 107px;
+    white-space: nowrap;
+    z-index: 3;
+}
+#subtitolo
+{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 30px;
+    margin-top: 0px;
+    white-space: nowrap;
+    color: white !important;
+    z-index: 3 !important;
+}
+
+.herohero
+{
+    background-color: #f4eede;
+    padding: 0% 0% 0% 0% !important;
+    height: 800px !important;
+}
+
+.concont
+{
+    background-image: url(./assets/images/portatitulo.png);
+    background-size: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 800px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.talfundo
+{
+    position: absolute;
+    z-index: 6;
+    width: 60%;
+}
+
+.textot
+{
+    margin-bottom: 130px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 991px)
+{
+    .herohero
+    {
+        margin-bottom: -100px;
+        position: relative;
+        z-index: 7;
+    }
+
+    .hellouou
+    {
+        z-index: 3;
+    }
+}
