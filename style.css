@@ -55,14 +55,68 @@
 
 @media (max-width: 576px)
 {
+    .container
+    {
+        width: 100% !important;
+    }
+
     .mural > div > div > .c150
     {
-        width: 150px;
+        width: 30vw;
     }
 
     .mural > div > div > .c200
     {
-        width: 175px;
+        width: 40vw;
+    }
+
+    .museumt
+    {
+        font-size: 25vw;
+    }
+
+    #titolo
+    {
+        font-size: 22vw !important;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .saco
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80vw !important;
+    }
+
+    #subtitolo
+    {
+        font-size: 5vw !important; 
+    }
+
+    #hello
+    {
+        font-size: 20vw !important;
+    }
+
+    .ponto
+    {
+        position: absolute;
+        top: 1vw;
+    }
+
+    .textot
+    {
+        position: relative;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .dsesc
+    {
+        margin: 5px;
     }
 }
 
@@ -155,6 +209,8 @@
     {
         width: 360px;
     }
+
+
 }
 
 .mural > div > div > p
