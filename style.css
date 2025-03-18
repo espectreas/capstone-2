@@ -53,6 +53,19 @@
     gap: 20px
 }
 
+@media (max-width: 576px)
+{
+    .mural > div > div > .c150
+    {
+        width: 150px;
+    }
+
+    .mural > div > div > .c200
+    {
+        width: 175px;
+    }
+}
+
 @media (min-width: 768px)
 {
     .mural > div
